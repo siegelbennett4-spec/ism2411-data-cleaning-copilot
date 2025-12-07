@@ -1,0 +1,11 @@
+Order ID, Product Name ,Category , Quantity,Price ,Order Date
+1001,  Widget A, Gadgets, 2, 19.99,2021-06-01
+1002,Widget B ,Gadgets , , 29.99,2021-06-02
+1003,Widget C, Gadgets, -1, 9.99,2021-06-03
+1004,  Gizmo X,Gizmos,3, -5.00,2021-06-04
+1005,Thingy , Widgets,5,15.00,2021-06-05
+1006,Widget A, Gadgets,2,19.99,2021-06-06
+1007,,Gadgets,1,12.00,2021-06-07
+1008,Widget D, ,4,abc,2021-06-08
+1009,Widget E,Widgets, , ,2021-06-09
+1010,   Gadget Z  , Gadgets, 10, 49.99,2021-06-10
