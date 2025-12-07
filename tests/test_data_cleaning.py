@@ -1,6 +1,13 @@
 import os
+import sys
+import pathlib
 import pandas as pd
-from src import data_cleaning
+
+# Make sure the `src` directory is importable when running pytest
+repo_root = pathlib.Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(repo_root / "src"))
+
+import data_cleaning
 
 
 def test_pipeline_creates_clean_file(tmp_path):
